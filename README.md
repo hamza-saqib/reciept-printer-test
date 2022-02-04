@@ -23,12 +23,11 @@ Edit the config file located at `config/receiptprinter.php` as follows:
     - the IP address or Samba URI, e.g: `smb://192.168.0.5/PrinterName` if your `connector_type` is `network`
 3. Set `connector_port` to the open port for the printer, only if your `connector_type` is `network`
 
-## Run
+## Runing/printing
 when everything config run follwing commad
 ``` bash
 php artisan config:cache
 php artisan serve
-composer require charlieuki/receiptprinter
 ```
 run follwing link to test a sample print
 http://baseURL/print or http://127.0.0.1:8000/print
