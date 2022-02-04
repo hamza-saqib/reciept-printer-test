@@ -1,7 +1,7 @@
 Simple Laravel App that uses charlieuki/receiptprinter package to integrate ESC/POS/Thermal Print Driver for PHP.
 this project uses Laravel 8, php 8 but you can install your on invirement for this 
 ## Installation 
-run following commands
+after cloning this project run following commands
 ``` bash
 composer install
 composer require charlieuki/receiptprinter
