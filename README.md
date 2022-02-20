@@ -1,7 +1,7 @@
 Simple Laravel App that uses charlieuki/receiptprinter package to integrate ESC/POS/Thermal Print Driver for PHP.
 this project uses Laravel 8, php 8 but you can install your on invirement for this 
 ## Installation 
-run following commands
+after cloning this project run following commands
 ``` bash
 composer install
 composer require charlieuki/receiptprinter
@@ -11,7 +11,7 @@ if you want to see config file run following command
 ``` bash
 php artisan vendor:publish --tag=receiptprinter.config
 ```
-now you will see file recieptprinter.php in config foleder
+now you will see file recieptprinter.php in config folder. <br>
 Edit the config file located at `config/receiptprinter.php` as follows:
 
 1. Set `connector_type` to:
@@ -23,7 +23,7 @@ Edit the config file located at `config/receiptprinter.php` as follows:
     - the IP address or Samba URI, e.g: `smb://192.168.0.5/PrinterName` if your `connector_type` is `network`
 3. Set `connector_port` to the open port for the printer, only if your `connector_type` is `network`
 
-## Config
+## Runing/printing
 when everything config run follwing commad
 ``` bash
 php artisan config:cache
