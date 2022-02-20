@@ -28,7 +28,6 @@ when everything config run follwing commad
 ``` bash
 php artisan config:cache
 php artisan serve
-composer require charlieuki/receiptprinter
 ```
 run follwing link to test a sample print
 http://baseURL/print or http://127.0.0.1:8000/print
